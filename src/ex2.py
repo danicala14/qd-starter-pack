@@ -49,3 +49,12 @@
 #
 #   return 0;
 # }
+
+days = ["Lunedi", "Martedi", "Mercoledi", "Giovedi", "Venerdi", "Sabato", "Domenica"]
+
+week = int(input("Enter week number (1-7): "))
+
+if 1 <= week <= 7:
+    print(days[week - 1]) 
+else:
+    print("Entra con un numero compreso da 1 a 7!")
